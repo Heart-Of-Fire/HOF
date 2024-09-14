@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap');
+body {
+    background: url('/img/FonGlav.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: beige;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(255, 0, 0, 0.8));
+}
+
+.logo-container {
+    display: flex;
+    font-size: 80px;
+    font-family: "Handjet", sans-serif;
+    align-items: center;
+}
+
+.mini-logo {
+    margin-right: 10px;
+}
+
+h1 {
+    font-size: 36px;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s, transform 0.3s;
+}
+
+nav ul li a:hover {
+    color: #dc143c; /* Темно-красный */
+    transform: scale(1.1);
+}
+
+.video-container {
+    width: 80%; /* Ширина блока */
+    margin: 0 auto; /* Центрирование */
+    border: 2px solid #ccc; /* Рамка */
+    padding: 20px; /* Отступ */
+    text-align: center; /* Выравнивание текста по центру */
+    background: url('/img/FonGlav2.jpg') no-repeat center center fixed;
+    background-size: cover;
+    border-radius: 10px; /* Скругленные углы */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Тень */
+  }
+  
+  .video-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #d12929; /* Цвет заголовка */
+  }
+  
+  video {
+    width: 100%; /* Видео занимает всю ширину блока */
+    height: auto; /* Высота автоматически подбирается */
+  }
+  
+  
+
+.logo {
+    font-family: "Handjet", sans-serif;
+    display: flex;
+    align-items: center;
+    font-size: 120px;
+    font-weight: 600;
+}
+
+.logo img {
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.donate {
+    border: 2px solid #ff8000;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background: #dc6a00;
+}
+
+main {
+    padding: 20px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.left, .right {
+    width: 30%;
+}
+.left {
+    position: relative;
+}
+
+.image {
+    width: 40%;
+}
+
+.image img {
+    width: 100%;
+}
+
+.title {
+    font-family: "Handjet", sans-serif;
+    font-size: 80px;
+    margin-bottom: 10px;
+}
+
+.button {
+    font-family: "Handjet", sans-serif;
+    background: linear-gradient(180deg, rgb(255, 205, 205) 0%, #ff2e2e 100%);
+    color: #fff;
+    padding: 20px 140px;
+    font-size: 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    position: center;
+    transition: all 500ms ease;
+}
+
+.button:hover {
+    background: hsl(1, 91%, 18%);
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.photo {
+    width: 25%;
+    text-align: center;
+}
+
+.photo img {
+    width: 100%;
+    border: 5px solid #fff;
+    border-radius: 10px;
+}
+
+.photo p {
+    margin-top: 5px;
+}
+
+.photo img {
+    width: 100%;
+    border: 5px solid #f85151;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(235, 129, 97, 0.5); /* Добавляем тень */
+}
+
+.photo img::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #f0f0f0, #ffcccc); /* Градиентная рамка */
+    z-index: -1;
+    border-radius: 10px; /* Круглые углы */
+}
+
+footer {
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.8), rgba(255, 0, 0, 0.8));
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+  }
+
+  footer a {
+    color: #ff0000;
+    text-decoration: none;
+  }
+
+  footer a:hover {
+    text-decoration: underline;
+  }

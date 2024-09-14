@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: url('/img/FonGlav2.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(255, 0, 0, 0.8));
+}
+
+.logo-container {
+    display: flex;
+    font-size: 80px;
+    font-family: "Handjet", sans-serif;
+    align-items: center;
+}
+
+.mini-logo {
+    margin-right: 10px;
+}
+
+h1 {
+    font-size: 36px;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s, transform 0.3s;
+}
+
+nav ul li a:hover {
+    color: #dc143c; /* Темно-красный */
+    transform: scale(1.1);
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 20px;
+    flex-wrap: wrap; /* Позволяет элементам переноситься на новую строку */
+}
+
+.side-image {
+    width: 30%;
+    text-align: center;
+}
+
+.side-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.logo {
+    text-align: center;
+    width: 40%;
+}
+.logo h2 {
+    font-size: 130px;
+    font-family: "Handjet", sans-serif;
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+.blocks {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 20px;
+    flex-wrap: wrap; /* Позволяет элементам переноситься на новую строку */
+    color: #fff;
+}
+
+.block {
+    background: linear-gradient(to bottom, rgba(255, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    width: 18%;
+    transition: transform 0.3s;
+    margin: 10px; /* Добавлено для отступов между блоками */
+    color: #fff;
+}
+
+.block:hover {
+    transform: scale(1.05);
+}
+
+.block img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.red-button {
+    background: #690303d2;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/* Медиа-запросы для мобильных устройств */
+@media (max-width: 1024px) {
+    .content {
+        flex-direction: column; /* Вертикальное расположение элементов */
+        align-items: center; /* Центрирование элементов */
+    }
+
+    .side-image {
+        width: 80%; /* Увеличение ширины для мобильных устройств */
+        margin-bottom: 20px; /* Отступ между изображениями */
+    }
+
+    .logo {
+        width: 80%; /* Увеличение ширины для мобильных устройств */
+    }
+
+    .blocks {
+        flex-direction: column; /* Вертикальное расположение блоков */
+        align-items: center; /* Центрирование блоков */
+    }
+
+    .block {
+        width: 90%; /* Увеличение ширины блоков для мобильных устройств */
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 28px; /* Уменьшение размера заголовка для мобильных устройств */
+    }
+
+    nav ul li {
+        margin-left: 10px; /* Уменьшение отступов между пунктами меню */
+    }
+
+    nav ul li a {
+        font-size: 14px; /* Уменьшение размера шрифта для мобильных устройств */
+    }
+}
+
+footer {
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.8), rgba(255, 0, 0, 0.8));
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+  }
+
+  footer a {
+    color: #ff0000;
+    text-decoration: none;
+  }
+
+  footer a:hover {
+    text-decoration: underline;
+  }

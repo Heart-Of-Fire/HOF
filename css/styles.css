@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: url('/img/FonGlav2.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(255, 0, 0, 0.8));
+}
+
+.logo-container {
+    display: flex;
+    font-size: 80px;
+    font-family: "Handjet", sans-serif;
+    align-items: center;
+}
+
+.mini-logo {
+    margin-right: 10px;
+}
+
+h1 {
+    font-size: 36px;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s, transform 0.3s;
+}
+
+nav ul li a:hover {
+    color: #dc143c; /* Темно-красный */
+    transform: scale(1.1);
+}
+
+main {
+    padding: 20px;
+}
+
+.stickers {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.sticker {
+    border: 2px solid #ff0000; /* Рамка */
+    background: url('/img/heart2.jpg') no-repeat center;
+    background-size: cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Тень */
+
+    border-radius: 10px;
+    margin: 15px;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+    color:  #fff;
+    transition: transform 0.3s;
+}
+
+.sticker:hover {
+    transform: scale(1.05);
+}
+
+.sticker img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+footer {
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.8), rgba(255, 0, 0, 0.8));
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+    width: auto;
+  }
+
+  footer a {
+    color: #ff0000;
+    text-decoration: none;
+  }
+
+  footer a:hover {
+    text-decoration: underline;
+  }
