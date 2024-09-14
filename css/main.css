@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background: url('/img/FonGlav2.jpg') no-repeat center center fixed;
+    background: url('img/FonGlav2.jpg') no-repeat center center fixed;
     background-size: cover;
     font-weight: 100;
     color: beige;
@@ -25,7 +25,7 @@ a {
     }
 
 .wrapper {
-    background: url('/img/FonGlav2.jpg') no-repeat center center fixed;
+    background: url('img/FonGlav2.jpg') no-repeat center center fixed;
     background-size: cover;
     width: 100%;
 }
@@ -111,7 +111,7 @@ footer {
     .history .historys .block {
         border: 2px solid #ff0000; /* Рамка */
         border-radius: 10px;
-        background: url('/img/heart2.jpg') no-repeat center;
+        background: url('img/heart2.jpg') no-repeat center;
         background-size: cover;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Тень */
         text-align: center;
@@ -184,7 +184,7 @@ footer {
 
 main {
     padding: 40px;
-    background: url('/img/Fon.jpg') no-repeat center center fixed;
+    background: url('img/Fon.jpg') no-repeat center center fixed;
     background-size: cover;
 }
 
@@ -235,7 +235,7 @@ main {
 .bot {
     border: 2px solid #ff0000; /* Рамка */
     border-radius: 10px;
-    background: url('/img/heart2.jpg') no-repeat center;
+    background: url('img/heart2.jpg') no-repeat center;
     background-size: cover;
     margin: 15px;
     padding: 20px;
