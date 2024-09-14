@@ -63,7 +63,7 @@ nav ul li a:hover {
     border: 2px solid #ccc; /* Рамка */
     padding: 20px; /* Отступ */
     text-align: center; /* Выравнивание текста по центру */
-    background: url('/img/FonGlav2.jpg') no-repeat center center fixed;
+    background: url('img/FonGlav2.jpg') no-repeat center center fixed;
     background-size: cover;
     border-radius: 10px; /* Скругленные углы */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Тень */
